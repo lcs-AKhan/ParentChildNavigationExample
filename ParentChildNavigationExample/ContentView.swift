@@ -8,16 +8,16 @@
 import SwiftUI
 
 struct Parent {
-    var description: String
+    var name: String
 }
 
 struct ContentView: View {
     
     // All top level options
     var topLevelOptions = [
-        Parent(description: "Option 1"),
-        Parent(description: "Option 2"),
-        Parent(description: "Option 3"),
+        Parent(name: "Option 1"),
+        Parent(name: "Option 2"),
+        Parent(name: "Option 3"),
     ]
     
     // Selected top level option
@@ -33,7 +33,7 @@ struct ContentView: View {
                     
                     ForEach(0 ..< topLevelOptions.count) { index in
                         
-                        Text(topLevelOptions[index].description)
+                        Text(topLevelOptions[index].name)
                         
                     }
                     
