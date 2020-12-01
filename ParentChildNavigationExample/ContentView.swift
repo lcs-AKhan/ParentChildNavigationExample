@@ -27,12 +27,12 @@ struct ContentView: View {
         Parent(name: "Option 1", children: [
             
             Child(name: "Option 1a",
-                  description: "Some explanatory information about option 1a",
+                  description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut tristique porttitor odio ut iaculis. Aliquam aliquet, sem sed imperdiet tincidunt, nibh urna tristique quam, sed tristique risus ex et elit. Proin tellus nulla, semper vel rutrum sit amet, imperdiet a orci. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed a faucibus leo. In hac habitasse platea dictumst. Sed nec ex vel nulla convallis venenatis. Duis pretium sit amet nunc eget suscipit. Nam vitae velit sit amet velit posuere tincidunt in at tortor. Integer congue velit erat, ut rutrum lectus aliquam id. Praesent ac ipsum in turpis semper vestibulum non at eros. Curabitur placerat, odio in vehicula pretium, ante tortor porttitor orci, efficitur viverra nisi est ac tortor.",
                   imageName: "image1a"),
             Child(name: "Option 1b",
                   description: "Some explanatory information about option 1b",
                   imageName: "image1b"),
-            Child(name: "Option 1a",
+            Child(name: "Option 1c",
                   description: "Some explanatory information about option 1c",
                   imageName: "image1c"),
 
@@ -93,7 +93,8 @@ struct ContentView: View {
                     // Loop over all the children of the selected top level option
                     List(topLevelOptions[selectedTopLevelOption].children) { secondLevelOption in
                         
-                        Text(secondLevelOption.name)
+                        NavigationLink(secondLevelOption.name,
+                                       destination: ChildDetailView(child: secondLevelOption))
                         
                     }
 

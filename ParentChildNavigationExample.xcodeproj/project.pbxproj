@@ -11,6 +11,7 @@
 		0EC9E6742575BB26009535CE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EC9E6732575BB25009535CE /* ContentView.swift */; };
 		0EC9E6762575BB34009535CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0EC9E6752575BB34009535CE /* Assets.xcassets */; };
 		0EC9E6792575BB34009535CE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0EC9E6782575BB34009535CE /* Preview Assets.xcassets */; };
+		0EC9E6832575C1D7009535CE /* ChildDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EC9E6822575C1D6009535CE /* ChildDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		0EC9E6752575BB34009535CE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0EC9E6782575BB34009535CE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		0EC9E67A2575BB34009535CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0EC9E6822575C1D6009535CE /* ChildDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChildDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 			children = (
 				0EC9E6712575BB25009535CE /* ParentChildNavigationExampleApp.swift */,
 				0EC9E6732575BB25009535CE /* ContentView.swift */,
+				0EC9E6822575C1D6009535CE /* ChildDetailView.swift */,
 				0EC9E6752575BB34009535CE /* Assets.xcassets */,
 				0EC9E67A2575BB34009535CE /* Info.plist */,
 				0EC9E6772575BB34009535CE /* Preview Content */,
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0EC9E6832575C1D7009535CE /* ChildDetailView.swift in Sources */,
 				0EC9E6742575BB26009535CE /* ContentView.swift in Sources */,
 				0EC9E6722575BB25009535CE /* ParentChildNavigationExampleApp.swift in Sources */,
 			);
