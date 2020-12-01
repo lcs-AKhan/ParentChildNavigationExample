@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-// By conforming to the identifiable protocol, a type can be iterated over with the List view
+// By conforming to the Identifiable protocol, a type can be iterated over with the List view
 struct Child: Identifiable {
     var id = UUID()         // Generate a unique identifier for an instance of this type
     var name: String
